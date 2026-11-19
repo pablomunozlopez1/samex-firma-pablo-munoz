@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<meta name="x-apple-disable-message-reformatting">
+<title>Vista previa · Firma Pablo Muñoz</title>
+<style type="text/css">
+  /* --- base --- */
+  :root { color-scheme: light dark; supported-color-schemes: light dark; }
+  body { margin:0; padding:0; }
+  .fx-firma a { text-decoration:none; }
+  /* imágenes del modo oscuro ocultas hasta que el cliente lo indique */
+  .fx-img-oscuro { display:none; mso-hide:all; max-height:0; overflow:hidden; }
+  /* --- modo oscuro estándar (Apple Mail, Outlook 365, Outlook móvil) --- */
+  @media (prefers-color-scheme: dark) {
+    .fx-nombre { color:#FFFFFF !important; }
+    .fx-cargo { color:#E8EBEE !important; }
+    .fx-tagline { color:#9AA2A8 !important; }
+    .fx-texto { color:#E4E8EB !important; }
+    .fx-texto a { color:#E4E8EB !important;text-decoration:none !important; }
+    .fx-lema { color:#FFFFFF !important; }
+    .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+  }
+  /* --- data-ogsc · Outlook.com / Outlook app en modo oscuro --- */
+    [data-ogsc] .fx-nombre { color:#FFFFFF !important; }
+    [data-ogsc] .fx-cargo { color:#E8EBEE !important; }
+    [data-ogsc] .fx-tagline { color:#9AA2A8 !important; }
+    [data-ogsc] .fx-texto { color:#E4E8EB !important; }
+    [data-ogsc] .fx-texto a { color:#E4E8EB !important;text-decoration:none !important; }
+    [data-ogsc] .fx-lema { color:#FFFFFF !important; }
+    [data-ogsc] .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    [data-ogsc] .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+  /* --- data-ogac · Outlook.com / Outlook app en modo oscuro --- */
+    [data-ogac] .fx-nombre { color:#FFFFFF !important; }
+    [data-ogac] .fx-cargo { color:#E8EBEE !important; }
+    [data-ogac] .fx-tagline { color:#9AA2A8 !important; }
+    [data-ogac] .fx-texto { color:#E4E8EB !important; }
+    [data-ogac] .fx-texto a { color:#E4E8EB !important;text-decoration:none !important; }
+    [data-ogac] .fx-lema { color:#FFFFFF !important; }
+    [data-ogac] .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    [data-ogac] .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+  /* --- data-ogsb · Outlook.com / Outlook app en modo oscuro --- */
+    [data-ogsb] .fx-nombre { color:#FFFFFF !important; }
+    [data-ogsb] .fx-cargo { color:#E8EBEE !important; }
+    [data-ogsb] .fx-tagline { color:#9AA2A8 !important; }
+    [data-ogsb] .fx-texto { color:#E4E8EB !important; }
+    [data-ogsb] .fx-texto a { color:#E4E8EB !important;text-decoration:none !important; }
+    [data-ogsb] .fx-lema { color:#FFFFFF !important; }
+    [data-ogsb] .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    [data-ogsb] .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+  /* --- data-ogab · Outlook.com / Outlook app en modo oscuro --- */
+    [data-ogab] .fx-nombre { color:#FFFFFF !important; }
+    [data-ogab] .fx-cargo { color:#E8EBEE !important; }
+    [data-ogab] .fx-tagline { color:#9AA2A8 !important; }
+    [data-ogab] .fx-texto { color:#E4E8EB !important; }
+    [data-ogab] .fx-texto a { color:#E4E8EB !important;text-decoration:none !important; }
+    [data-ogab] .fx-lema { color:#FFFFFF !important; }
+    [data-ogab] .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    [data-ogab] .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+  /* --- forzado de modo para la vista previa --- */
+    .vista-clara .fx-nombre { color:#121417 !important; }
+    .vista-clara .fx-cargo { color:#1F2428 !important; }
+    .vista-clara .fx-tagline { color:#6E7378 !important; }
+    .vista-clara .fx-texto { color:#23272B !important; }
+    .vista-clara .fx-texto a { color:#23272B !important;text-decoration:none !important; }
+    .vista-clara .fx-lema { color:#121417 !important; }
+    .vista-clara .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    .vista-clara .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+    .vista-clara .fx-img-claro { display:block !important; mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+    .vista-clara .fx-img-oscuro { display:none !important; mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    .vista-oscura .fx-nombre { color:#FFFFFF !important; }
+    .vista-oscura .fx-cargo { color:#E8EBEE !important; }
+    .vista-oscura .fx-tagline { color:#9AA2A8 !important; }
+    .vista-oscura .fx-texto { color:#E4E8EB !important; }
+    .vista-oscura .fx-texto a { color:#E4E8EB !important;text-decoration:none !important; }
+    .vista-oscura .fx-lema { color:#FFFFFF !important; }
+    .vista-oscura .fx-img-claro { display:none !important;mso-hide:all !important;max-height:0 !important;overflow:hidden !important; }
+    .vista-oscura .fx-img-oscuro { display:block !important;mso-hide:none !important;max-height:none !important;overflow:visible !important; }
+</style>
+<style type="text/css">
+  body { background:#e9ebec; font-family:'Segoe UI',Arial,sans-serif; }
+  .marco { padding:28px; }
+  .titulo { margin:0 0 4px 0; font-size:21px; font-weight:600; color:#1b1f23; }
+  .sub { margin:0 0 20px 0; font-size:13px; color:#5b6268; }
+  .paneles { display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; }
+  .panel { width:648px; box-sizing:border-box; padding:24px; border-radius:14px; box-shadow:0 1px 4px rgba(0,0,0,.14); }
+  .claro { background:#ffffff; }
+  .oscuro { background:#14171a; }
+  .etiqueta { font-size:10px; letter-spacing:2px; text-transform:uppercase; margin:0 0 18px 0; font-weight:600; }
+  .e-claro { color:#969ca2; }
+  .e-oscuro { color:#79818a; }
+  .enlaces { margin:0 0 22px 0; font-size:13px; }
+  .enlaces a { color:#2f6fd0; text-decoration:none; margin-right:18px; }
+  .enlaces a:hover { text-decoration:underline; }
+  .nota { font-size:12px; color:#5f666c; margin:18px 0 0 0; max-width:1200px; line-height:18px; }
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#e9ebec;">
+<div class="marco">
+  <h1 class="titulo">Firma de correo · Pablo Muñoz</h1>
+  <p class="sub">SAMEX · Gestor de Soporte TI &nbsp;—&nbsp; misma firma, dos modos de color</p>
+  <p class="enlaces"><a href="copiar.html">Página para copiar la firma →</a><a href="firma.html">Ver el HTML →</a></p>
+  <div class="paneles">
+    <div class="panel claro vista-clara">
+      <p class="etiqueta e-claro">Modo claro</p>
+      <!-- =====================================================================
+     FIRMA DE CORREO · SAMEX · Pablo Muñoz
+     Se adapta a modo claro y oscuro. Imágenes: ../assets
+     ====================================================================== -->
+<table class="fx-firma" role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="width:600px;max-width:600px;border-collapse:collapse;table-layout:fixed;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+  <tr>
+    <!-- marca -->
+    <td width="200" style="width:200px;padding:0;vertical-align:top;font-size:0;line-height:0;">&nbsp;</td>
+    <td width="48" style="width:48px;padding:0;vertical-align:top;font-size:0;line-height:0;">&nbsp;</td>
+    <!-- nombre y cargo -->
+    <td width="352" style="width:352px;padding:0;vertical-align:top;">
+      <div class="fx-nombre" style="font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:26px;line-height:30px;font-weight:700;letter-spacing:-0.2px;color:#121417;mso-line-height-rule:exactly;">Pablo Muñoz</div>
+      <div class="fx-cargo" style="margin:2px 0 0 0;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:17px;font-weight:700;letter-spacing:0.2px;color:#1F2428;mso-line-height-rule:exactly;">Gestor de Soporte TI</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="200" style="width:200px;padding:10px 0 0 0;vertical-align:middle;">
+      <a href="https://www.samex.cl" style="text-decoration:none;border:0;outline:none;" target="_blank"><img src="assets/samex-logo-claro.png" width="200" height="41" alt="SAMEX" class="fx-img-claro" style="display:block;width:200px;height:41px;border:0;outline:none;text-decoration:none;"><img src="assets/samex-logo-oscuro.png" width="200" height="41" alt="SAMEX" class="fx-img-oscuro" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:200px;height:41px;border:0;outline:none;text-decoration:none;"></a>
+      <div class="fx-tagline" style="margin:6px 0 0 0;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:10px;line-height:14px;letter-spacing:5.7px;color:#6E7378;white-space:nowrap;mso-line-height-rule:exactly;">carga con expertos</div>
+    </td>
+    <td width="48" style="width:48px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+    <td width="352" style="width:352px;padding:10px 0 0 0;vertical-align:middle;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+        <tr>
+          <td width="27" height="96" style="width:27px;height:96px;padding:0;vertical-align:middle;"><img src="assets/contacto-pastilla.png" width="27" height="96" alt="" style="display:block;width:27px;height:96px;border:0;outline:none;text-decoration:none;border-radius:13px;"></td>
+          <td width="10" style="width:10px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+          <td style="padding:0;vertical-align:middle;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="mailto:pablo.munoz@onitec.cl" style="color:#23272B;text-decoration:none;border:0;outline:none;">pablo.munoz@onitec.cl</a></td>
+                          </tr>
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="tel:+56998207936" style="color:#23272B;text-decoration:none;border:0;outline:none;">+569 9820 7936</a></td>
+                          </tr>
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="https://www.google.com/maps/search/?api=1&query=Galvarino+7801%2C+Quilicura%2C+Santiago" style="color:#23272B;text-decoration:none;border:0;outline:none;" target="_blank">Galvarino 7801, Quilicura, Santiago.</a></td>
+                          </tr>
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="https://www.samex.cl" style="color:#23272B;text-decoration:none;border:0;outline:none;" target="_blank">www.samex.cl</a></td>
+                          </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <!-- sellos -->
+    <td width="200" style="width:200px;padding:12px 0 0 0;vertical-align:middle;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+        <tr>
+          <td style="padding:0;vertical-align:middle;"><img src="assets/giro-limpio-claro.png" width="124" height="40" alt="Giro Limpio — la ruta verde para Chile" class="fx-img-claro" style="display:block;width:124px;height:40px;border:0;outline:none;text-decoration:none;"><img src="assets/giro-limpio-oscuro.png" width="124" height="40" alt="Giro Limpio — la ruta verde para Chile" class="fx-img-oscuro" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:124px;height:40px;border:0;outline:none;text-decoration:none;"></td>
+          <td width="14" style="width:14px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+          <td style="padding:0;vertical-align:middle;"><img src="assets/aenor-claro.png" width="54" height="44" alt="AENOR — Gestión de la calidad ISO 9001" class="fx-img-claro" style="display:block;width:54px;height:44px;border:0;outline:none;text-decoration:none;"><img src="assets/aenor-oscuro.png" width="54" height="44" alt="AENOR — Gestión de la calidad ISO 9001" class="fx-img-oscuro" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:54px;height:44px;border:0;outline:none;text-decoration:none;"></td>
+        </tr>
+      </table>
+    </td>
+    <td width="48" style="width:48px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+    <!-- lema -->
+    <td width="352" style="width:352px;padding:12px 0 0 0;vertical-align:middle;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+        <tr>
+          <td width="26" style="width:26px;padding:0;vertical-align:middle;"><img src="assets/chevrones.png" width="26" height="20" alt="" style="display:block;width:26px;height:20px;border:0;outline:none;text-decoration:none;"></td>
+          <td width="9" style="width:9px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+          <td class="fx-lema" style="padding:0;vertical-align:middle;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:17px;font-weight:700;letter-spacing:-0.1px;color:#121417;mso-line-height-rule:exactly;white-space:nowrap;">Movilizamos el negocio de nuestros clientes</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" style="padding:12px 0 0 0;font-size:0;line-height:0;"><img src="assets/barra-acento.png" width="600" height="4" alt="" style="display:block;width:600px;height:4px;border:0;outline:none;text-decoration:none;"></td>
+  </tr>
+</table>
+<!-- ====================== fin firma SAMEX ====================== -->
+    </div>
+    <div class="panel oscuro vista-oscura">
+      <p class="etiqueta e-oscuro">Modo oscuro</p>
+      <!-- =====================================================================
+     FIRMA DE CORREO · SAMEX · Pablo Muñoz
+     Se adapta a modo claro y oscuro. Imágenes: ../assets
+     ====================================================================== -->
+<table class="fx-firma" role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="width:600px;max-width:600px;border-collapse:collapse;table-layout:fixed;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+  <tr>
+    <!-- marca -->
+    <td width="200" style="width:200px;padding:0;vertical-align:top;font-size:0;line-height:0;">&nbsp;</td>
+    <td width="48" style="width:48px;padding:0;vertical-align:top;font-size:0;line-height:0;">&nbsp;</td>
+    <!-- nombre y cargo -->
+    <td width="352" style="width:352px;padding:0;vertical-align:top;">
+      <div class="fx-nombre" style="font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:26px;line-height:30px;font-weight:700;letter-spacing:-0.2px;color:#121417;mso-line-height-rule:exactly;">Pablo Muñoz</div>
+      <div class="fx-cargo" style="margin:2px 0 0 0;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:17px;font-weight:700;letter-spacing:0.2px;color:#1F2428;mso-line-height-rule:exactly;">Gestor de Soporte TI</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="200" style="width:200px;padding:10px 0 0 0;vertical-align:middle;">
+      <a href="https://www.samex.cl" style="text-decoration:none;border:0;outline:none;" target="_blank"><img src="assets/samex-logo-claro.png" width="200" height="41" alt="SAMEX" class="fx-img-claro" style="display:block;width:200px;height:41px;border:0;outline:none;text-decoration:none;"><img src="assets/samex-logo-oscuro.png" width="200" height="41" alt="SAMEX" class="fx-img-oscuro" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:200px;height:41px;border:0;outline:none;text-decoration:none;"></a>
+      <div class="fx-tagline" style="margin:6px 0 0 0;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:10px;line-height:14px;letter-spacing:5.7px;color:#6E7378;white-space:nowrap;mso-line-height-rule:exactly;">carga con expertos</div>
+    </td>
+    <td width="48" style="width:48px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+    <td width="352" style="width:352px;padding:10px 0 0 0;vertical-align:middle;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+        <tr>
+          <td width="27" height="96" style="width:27px;height:96px;padding:0;vertical-align:middle;"><img src="assets/contacto-pastilla.png" width="27" height="96" alt="" style="display:block;width:27px;height:96px;border:0;outline:none;text-decoration:none;border-radius:13px;"></td>
+          <td width="10" style="width:10px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+          <td style="padding:0;vertical-align:middle;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="mailto:pablo.munoz@onitec.cl" style="color:#23272B;text-decoration:none;border:0;outline:none;">pablo.munoz@onitec.cl</a></td>
+                          </tr>
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="tel:+56998207936" style="color:#23272B;text-decoration:none;border:0;outline:none;">+569 9820 7936</a></td>
+                          </tr>
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="https://www.google.com/maps/search/?api=1&query=Galvarino+7801%2C+Quilicura%2C+Santiago" style="color:#23272B;text-decoration:none;border:0;outline:none;" target="_blank">Galvarino 7801, Quilicura, Santiago.</a></td>
+                          </tr>
+                          <tr>
+                            <td class="fx-texto" style="height:20px;line-height:20px;padding:0;mso-line-height-rule:exactly;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;color:#23272B;"><a href="https://www.samex.cl" style="color:#23272B;text-decoration:none;border:0;outline:none;" target="_blank">www.samex.cl</a></td>
+                          </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <!-- sellos -->
+    <td width="200" style="width:200px;padding:12px 0 0 0;vertical-align:middle;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+        <tr>
+          <td style="padding:0;vertical-align:middle;"><img src="assets/giro-limpio-claro.png" width="124" height="40" alt="Giro Limpio — la ruta verde para Chile" class="fx-img-claro" style="display:block;width:124px;height:40px;border:0;outline:none;text-decoration:none;"><img src="assets/giro-limpio-oscuro.png" width="124" height="40" alt="Giro Limpio — la ruta verde para Chile" class="fx-img-oscuro" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:124px;height:40px;border:0;outline:none;text-decoration:none;"></td>
+          <td width="14" style="width:14px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+          <td style="padding:0;vertical-align:middle;"><img src="assets/aenor-claro.png" width="54" height="44" alt="AENOR — Gestión de la calidad ISO 9001" class="fx-img-claro" style="display:block;width:54px;height:44px;border:0;outline:none;text-decoration:none;"><img src="assets/aenor-oscuro.png" width="54" height="44" alt="AENOR — Gestión de la calidad ISO 9001" class="fx-img-oscuro" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:54px;height:44px;border:0;outline:none;text-decoration:none;"></td>
+        </tr>
+      </table>
+    </td>
+    <td width="48" style="width:48px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+    <!-- lema -->
+    <td width="352" style="width:352px;padding:12px 0 0 0;vertical-align:middle;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+        <tr>
+          <td width="26" style="width:26px;padding:0;vertical-align:middle;"><img src="assets/chevrones.png" width="26" height="20" alt="" style="display:block;width:26px;height:20px;border:0;outline:none;text-decoration:none;"></td>
+          <td width="9" style="width:9px;padding:0;font-size:0;line-height:0;">&nbsp;</td>
+          <td class="fx-lema" style="padding:0;vertical-align:middle;font-family:'Century Gothic','CenturyGothic',Futura,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:17px;font-weight:700;letter-spacing:-0.1px;color:#121417;mso-line-height-rule:exactly;white-space:nowrap;">Movilizamos el negocio de nuestros clientes</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" style="padding:12px 0 0 0;font-size:0;line-height:0;"><img src="assets/barra-acento.png" width="600" height="4" alt="" style="display:block;width:600px;height:4px;border:0;outline:none;text-decoration:none;"></td>
+  </tr>
+</table>
+<!-- ====================== fin firma SAMEX ====================== -->
+    </div>
+  </div>
+  <p class="nota">Las dos vistas usan exactamente el mismo HTML. La vista oscura simula lo que hacen los clientes de correo
+  (Outlook 365, Apple Mail, Outlook móvil) cuando el sistema está en modo oscuro: el texto y los logotipos cambian
+  solos mediante CSS. No es una imagen.</p>
+</div>
+</body>
+</html>
