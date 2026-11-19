@@ -1,6 +1,7 @@
 ﻿# Firma de correo — Pablo Muñoz (SAMEX)
 
-Firma HTML para Microsoft 365 / Outlook, con **modo claro y oscuro automático**.
+Firma HTML para Microsoft 365 / Outlook, con **modo claro y oscuro automático**
+y **aviso de confidencialidad bilingüe** (texto real, centrado).
 
 - **Sitio:** https://pablomunozlopez1.github.io/samex-firma-pablo-munoz/
 - **Copiar la firma:** https://pablomunozlopez1.github.io/samex-firma-pablo-munoz/copiar.html
